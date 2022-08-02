@@ -19,7 +19,7 @@ The APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOM
 
 The EIN, NAME, and STATUS columns are neither targets nor features and were removed from the input data. 
 
-![Features,Target,Dropped]()
+![Features,Target,Dropped](https://github.com/ericajini/Neural_Network_Charity_Analysis/blob/main/dropped_features_target.jpg)
 
 ### Compiling, Traning, and Evaluating the Model 
 1. How Many neurons, layers, and activation functions did you select for your neural network model, and why? 
@@ -34,8 +34,8 @@ No, I was not able to achieve the target model performance of 75% accuracy.
 
 During the optimization phase, outside of trying to increase the neurons and hidden layers, I also tried using other activation types such as Tanh. I also removed the Status column since this seemed to be providing no value to the model and tried to change around the epochs to increase performance. 
 
-![Final Model]()
-![Best Success]()
+![Final Model](https://github.com/ericajini/Neural_Network_Charity_Analysis/blob/main/final_model.jpg)
+![Best Success](https://github.com/ericajini/Neural_Network_Charity_Analysis/blob/main/best_accuracy_score.jpg)
 
 ## Summary 
 
